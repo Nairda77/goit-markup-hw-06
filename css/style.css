@@ -608,10 +608,17 @@ a {
     color: #8E8F99;
 }
 
+.modal-btn{
+    margin: 24px 96px 24px 96px;
+}
+
+.modal-btn2:hover{
+    cursor: pointer;
+}
+
 .modal-btn2{
     display: flex;
     justify-content: center;
-    margin: 24px 96px;
     width: 169px;
     height: 56px;
     color: white;
@@ -623,4 +630,77 @@ a {
 
 ::placeholder {
     color: gray;
-    font-size: small;
+    font-size: small;}
+
+.caret-form{
+    color: #2e2f42;
+}
+
+
+
+.checkmark{
+    margin-top: 16px;
+    width: 16px;
+    height: 16px;
+}
+
+.checkmark:hover{
+    cursor: pointer;
+}
+
+.service-text{
+    display: inline-flex;
+    width: 338px;
+    height: 16px;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.text-check{
+    color: #4D5AE5;
+    text-decoration: underline;
+}
+
+.text-check:hover{
+    cursor: pointer;
+}
+
+.sub-footer{
+    color: white;
+    width: 75px;
+    height: 24px;
+    margin-bottom:16px;
+    margin-top: 0%;
+
+}
+
+.label-input-subtag{
+    background-color: #2E2F42;
+    border-color: white;
+    width: 264px;
+    height: 40px;
+    padding: 0%;
+}
+
+.label-input-subtag::placeholder{
+    color: white;
+    width: 36px;
+    height: 24px;
+}
+
+.sub-btn{
+    background-color: #4D5AE5;
+    color: white;
+    width: 165px;
+    height: 40px;
+}
+
+.sub-subscribe{
+    display:flex ;
+    gap: 24px;
+}
+
+.icon-sub-btn{
+    
+
+}
