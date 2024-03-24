@@ -66,14 +66,17 @@
               <label class="label-tag" for="comment"><small>Comment</small></label>
               <textarea id="comment" autocomplete="off" placeholder="Text input" class="caret-form" rows="5"></textarea>
             </div>
+            <label class="agree-check">
             <input
           type="checkbox"
           class="checkmark"
           name="agreement"
-          value="agree"/>
+          value="agree"
+          />
           <span class="service-text">
           <small>I accept the terms and conditions of the <u><span class="text-check">Privacy Policy</span></u>.</small>
           </span>
+            </label>
             <div class="modal-btn">
               <input class="modal-btn2" type="submit" value="Send">
             </div>
@@ -399,13 +402,11 @@
               <label class="label-sub-tag" for="email"></label>
               <span class="sub-subscribe">
               <input type="email" id="email" autocomplete="off" placeholder="Email" autofocus class="label-input-subtag">
-              <button class="sub-btn" type="button">Subscribe
-                <svg class="icon-sub-btn">
-                  <use href="./icons/symbol-defs4.svg#icon-Frame-3"></use>
-                </svg>
-              </button>
+              <button class="sub-btn" type="button">Subscribe<svg class="icon-sub-btn">
+                  <use class="icon-sub-btn2" href="./icons/symbol-defs4.svg#icon-Frame-3"></use>
+                </svg></button>
+              </span>
         </span></div></div>
-        
       </footer>
     </div>
     <script src="./javascript/modal.js"></script>

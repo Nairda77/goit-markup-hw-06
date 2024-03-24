@@ -629,7 +629,6 @@ a {
 }
 
 ::placeholder {
-    color: gray;
     font-size: small;}
 
 .caret-form{
@@ -701,6 +700,14 @@ a {
 }
 
 .icon-sub-btn{
-    
+    fill: white;
+    width: 24px;
+    height: 24px;
+}
 
+.icon-sub-footer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
