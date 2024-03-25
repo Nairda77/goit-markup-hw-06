@@ -217,7 +217,7 @@ a {
     height: 312px;
     padding: 100px 1020px 100px 156px;
     display: flex;
-    gap: 120px;
+    gap: 80px;
 }
 
 .studio-footer{
@@ -461,7 +461,7 @@ a {
     padding-top: 0%;
     width: 208px;
     height: 80px;
-
+    margin-left: 40px;
 }
 
 .svg-footer-list{
@@ -633,9 +633,20 @@ a {
 
 .caret-form{
     color: #2e2f42;
+    width: 360px;
+    height: 40px;
 }
 
+.caret-form1{
+    width: 360px;
+    height: 120px;
+}
 
+.icon-modal{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
 
 .checkmark{
     margin-top: 16px;
@@ -647,12 +658,19 @@ a {
     cursor: pointer;
 }
 
+.agree-check{
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
 .service-text{
     display: inline-flex;
     width: 338px;
     height: 16px;
     align-content: center;
     flex-wrap: wrap;
+    margin-left: 8px;
 }
 
 .text-check{
@@ -692,6 +710,15 @@ a {
     color: white;
     width: 165px;
     height: 40px;
+    display: inline-flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.sub-btn:hover{
+    cursor: pointer;
 }
 
 .sub-subscribe{
