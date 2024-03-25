@@ -634,12 +634,10 @@ a {
 .caret-form{
     color: #2e2f42;
     width: 360px;
-    height: 40px;
 }
 
 .caret-form1{
     width: 360px;
-    height: 120px;
 }
 
 .icon-modal{
@@ -647,6 +645,8 @@ a {
     height: 20px;
     position: absolute;
 }
+
+?
 
 .checkmark{
     margin-top: 16px;
