@@ -634,6 +634,7 @@ a {
 .caret-form{
     color: #2e2f42;
     width: 360px;
+    padding-left: 20px;
 }
 
 .caret-form1{
